@@ -1,0 +1,74 @@
+.main-div {
+    display: flex;
+    position: relative;
+}
+
+.first-half {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(243, 176, 130);
+}
+
+.second-half {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(69, 59, 188);
+
+}
+
+.main-div h1,
+h4,
+button {
+    position: absolute;
+}
+
+.main-div h1 {
+    left: 150px;
+    top: 50px;
+    font-size: 50px;
+    right: 450px;
+}
+
+.main-div h4 {
+    left: 150px;
+    top: 220px;
+    font-size: 15px;
+    right: 600px;
+}
+
+.main-div button {
+    left: 150px;
+    top: 370px;
+    font-size: 15px;
+    right: 600px;
+    height: 40px;
+    width: 180px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cap {
+    position: absolute;
+    top: 120px;
+    height: 280px;
+    width: 280px;
+
+    right: 190px;
+}
+
+.cap-logo {
+    position: absolute;
+    top: 200px;
+    font-size: 15px;
+    right: 290px;
+    height: 125px;
+    width: 80px;
+}
+
+.sanmica-img {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}

@@ -1,0 +1,39 @@
+/* /* .main-div {
+    display: flex;
+
+    width: 100%;
+} */
+
+.commom-card {
+    position: relative;
+}
+
+.commom-card h1 {
+    top: 260px;
+    left: 50px;
+    z-index: 2;
+    color: transparent;
+    position: absolute;
+    font-size: 60px;
+    -webkit-text-stroke: 0.6px white;
+}
+
+.commom-card h1 span {
+    color: white;
+}
+
+.commom-card p {
+    bottom: 55px;
+    left: 54px;
+    right: 120px;
+    z-index: 2;
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    text-align: left;
+}
+
+.commom-card img {
+    height: 100%;
+    width: 100%;
+}
